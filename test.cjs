@@ -1,9 +1,9 @@
 const { join } = require('node:path');
-const { cosmiconfig } = require('cosmiconfig');
 
 async function main() {
-  const explorer = cosmiconfig('@acme/test');
-  explorer.load(join(__dirname, 'config.ts'));
+  // Using require works when running with `npx ts-node test.cjs`
+  // `node test.cjs` won't work still obviously
+  require('./config.ts');
 }
 
 main();
