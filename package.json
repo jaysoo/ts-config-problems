@@ -7,7 +7,9 @@
   "license": "ISC",
   "dependencies": {
     "cosmiconfig": "^9.0.0",
+    "got": "^14.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
   }
 }
