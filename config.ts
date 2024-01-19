@@ -1,3 +1,3 @@
-// If you remove/comment out this import to avoid ESM importing `.ts` file, then the example will work!
-import './foo.ts';
+// @ts-ignore
+require('./foo');
 console.log('load config.ts');
